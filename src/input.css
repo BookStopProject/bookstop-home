@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-outlined,
+  .btn-filled,
+  .btn-tonal {
+    @apply flex overflow-hidden relative justify-center items-center px-6 space-x-2 h-10 font-medium rounded-full focus-visible:ring-2 focus:outline-none after:absolute after:inset-0 after:pointer-events-none;
+  }
+
+  .btn-filled {
+    @apply text-on-primary bg-primary after:bg-transparent hover:after:bg-on-primary/8 focus:after:bg-on-primary/12;
+  }
+
+  .btn-tonal {
+    @apply text-on-secondary-container bg-secondary-container hover:after:bg-on-secondary-container/8 focus:after:bg-on-secondary-container/12;
+  }
+
+  .btn-outlined {
+    @apply text-primary hover:text-primary/75 focus:text-primary/75 rounded-full border-2 border-current;
+  }
+}

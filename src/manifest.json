@@ -1,0 +1,16 @@
+{
+  "name": "BookStop: Read. Share. Exchange. Repeat.",
+  "short_name": "BookStop",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfdfc",
+  "theme_color": "#00696e",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
