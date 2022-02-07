@@ -3,7 +3,7 @@ const SectionOSS = () => {
     <div className="py-16 my-8">
       <div className="px-2 mx-auto max-w-6xl">
         <h2 className="mb-2 text-5xl font-medium text-center">
-          An Open-Ended book
+          An Open-Ended Book
         </h2>
         <p className="mb-8 text-2xl text-center text-on-surface-variant">
           Build your own community upon the open-source platform
@@ -19,7 +19,7 @@ const SectionOSS = () => {
           <p>
             Anyone can start a book exchange corner for their school, their
             neighborhood, or their hometown.{" "}
-            <i className="text-[#e1a064]">
+            <i className="text-[#735133]">
               We can also help you manage the application so you can focus on
               the main task!
             </i>

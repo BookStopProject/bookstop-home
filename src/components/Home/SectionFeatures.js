@@ -11,7 +11,7 @@ const FeatureItem = ({ title, description, image }) => {
           src={image}
           loading="lazy"
           className="object-cover absolute w-full h-full"
-          alt={title}
+          alt={description}
         />
       </div>
       <h3 className="text-2xl font-medium">{title}</h3>

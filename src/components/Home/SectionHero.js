@@ -32,8 +32,14 @@ const SectionHero = () => {
             </a>
           </div>
         </div>
-        <div className="p-2 lg:flex-1">
-          <img src={svgSchoolBooks} className="mx-auto w-64 lg:w-full" alt="" />
+        <div className="p-2 lg:flex-1 lg:p-10">
+          <img
+            src={svgSchoolBooks}
+            width={800.8}
+            height={950.64}
+            className="mx-auto w-64 lg:w-full"
+            alt=""
+          />
         </div>
       </div>
     </div>

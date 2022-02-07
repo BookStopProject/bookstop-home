@@ -7,8 +7,14 @@ import SectionOSS from "./SectionOSS";
 const HomePage = () => {
   return (
     <div className="container">
-      <div className="py-4 mx-auto mb-2 w-56">
-        <img src={logo} alt="Logo" />
+      <div className="py-4 mx-auto mb-2">
+        <img
+          src={logo}
+          alt="BookStop"
+          width={224}
+          height={42.63}
+          className="mx-auto"
+        />
       </div>
       <SectionHero />
       <SectionFeatures />

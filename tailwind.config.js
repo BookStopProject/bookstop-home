@@ -55,5 +55,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  important: true
-}
+  important: true,
+};
