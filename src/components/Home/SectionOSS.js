@@ -9,21 +9,37 @@ const SectionOSS = () => {
           Build your own community upon the open-source platform
         </p>
         <div className="mx-auto space-y-2 max-w-4xl text-lg text-center text-on-surface-variant/75">
-        <p>
-          We believe that the way to achieve our mission of bringing books to
-          everyone is to <b>empower</b> others to do the same in their
-          communities, and we do so by making the <span className="text-secondary">Source Code</span> of BookStop <span className="text-primary">open
-          and free</span>.
-        </p>
-        <p>
-          Anyone can start a book exchange corner for their
-          school, their neighborhood, or their hometown. <i className="text-[#e1a064]">We can also help you manage the application so you can focus on the main task!</i>
-        </p>
+          <p>
+            We believe that the way to achieve our mission of bringing books to
+            everyone is to <b>empower</b> others to do the same in their
+            communities, and we do so by making the{" "}
+            <span className="text-secondary">Source Code</span> of BookStop{" "}
+            <span className="text-primary">open and free</span>.
+          </p>
+          <p>
+            Anyone can start a book exchange corner for their school, their
+            neighborhood, or their hometown.{" "}
+            <i className="text-[#e1a064]">
+              We can also help you manage the application so you can focus on
+              the main task!
+            </i>
+          </p>
         </div>
         <div className="flex justify-center items-center mt-8 space-x-2">
-        <a className="py-2 px-4 btn-tonal" href="https://github.com/BookStopProject">Check out on GitHub</a>
-        <a className="py-2 px-4 btn-filled" href="https://github.com/BookStopProject/bookstop-front#managed-service">Managed BookStop</a></div>
+          <a
+            className="py-2 px-4 btn-tonal"
+            href="https://github.com/BookStopProject"
+          >
+            Check out on GitHub
+          </a>
+          <a
+            className="py-2 px-4 btn-filled"
+            href="https://github.com/BookStopProject/bookstop-front#managed-service"
+          >
+            Managed BookStop
+          </a>
         </div>
+      </div>
     </div>
   );
 };
