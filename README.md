@@ -1,8 +1,14 @@
-# bookstop-home
+# ![BookStop](https://raw.githubusercontent.com/BookStopProject/bookstop-home/main/src/assets/logo-text-original.png)
 
-Homepage for BookStop.
+Exchange books with each other, share your thoughts, participate in events, all in one stop. BookStop is the final destination for every reader.
 
-https://bookstop.app
+Website: https://bookstop.app
+
+| Codebase                                                            |                Description                 |
+| :------------------------------------------------------------------ | :----------------------------------------: |
+| [bookstop-front](https://github.com/BookStopProject/bookstop-front) |        Next.js Frontend Application        |
+| [bookstop-api](https://github.com/BookStopProject/bookstop-api)     | Golang API Server (GraphQL) and Admin Page |
+| [bookstop-home](https://github.com/BookStopProject/bookstop-home)   |              Preact homepage               |
 
 ## Development
 
